@@ -33,7 +33,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="30dp"
         app:cardElevation="35dp"
-        app:cardCornerRadius="25dp">
+        app:cardCornerRadius="25dp"
+        android:backgroundTint="@color/white">
 
 
         <LinearLayout
@@ -46,7 +47,7 @@
                 android:id="@+id/tvTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Inicio de sesion"
+                android:text="Inicio de sesión"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:textColor="#6B172E"
@@ -58,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:background="@drawable/bg_input"
-                android:hint="Correo electronico"
+                android:hint="Correo electrónico"
                 android:paddingStart="20dp"
                 android:paddingEnd="15dp"
                 android:textColor="#253D69"
@@ -77,10 +78,10 @@
                 android:paddingEnd="15dp"
                 android:textColor="#253D69"
                 android:textColorHint="#240711"
-                android:inputType="textEmailAddress"
+                android:inputType="textPassword"
                 android:drawablePadding="10dp"
                 android:layout_marginTop="15dp"
-                android:drawableStart="@drawable/sharp_abc_24"
+                android:drawableStart="@drawable/pass"
                 />
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnIngresar"
