@@ -22,9 +22,9 @@ data class Album(
     val country: String?,
     val currency: String?
 ){
-    //metodo para obtener la imagen en grande
-    fun obtenerImagenGrande():String{
-        return artworkUrl100?.replace("100x100.jpg", "600x600.jpg")?:""
+    //METODO PAA OBTENER LA IMAGEN EN GRANDE
+    fun obtenerImagenGrande():String {
+        return artworkUrl100?.replace("100x100bb.jpg", "600x600.jpg") ?: ""
     }
 }
 
